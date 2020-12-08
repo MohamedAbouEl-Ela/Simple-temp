@@ -1,0 +1,164 @@
+body{
+
+}
+/* about section */
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+}
+
+/* Nav Bar */
+.navbar{
+    display: flex;
+    position: relative;
+    z-index: 2;
+    color: #000;
+    background-color: #47cbc4;
+}
+.navbar .logo{
+    width: 200px;
+    padding: 12px;
+    font-size: 43px;
+    font-weight: 600;
+}
+.navbar .links {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+}
+.navbar .links li{
+    display: inline-block;
+    margin-left: 10px
+}
+.navbar .links li a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.content-about{
+    text-align: center;
+    padding: 40px 0;
+}
+.adv1,.adv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adv1-text,.adv2-text{
+    width: 50%;
+    text-align: center;
+}
+h3{
+    color: #cb4657;
+    font-size: 35px;
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+}
+.adv1-text p ,
+.adv2-text p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+/* End navbar */
+
+/* Start About Section */
+
+h1{
+    color: #104cc1;
+    font-family: 'Do Hyeon';
+    font-size: 50px;
+    border-bottom: 20px solid;
+}
+
+/* End About Section */
+/* Start Dynamic Section */
+.Dynamic{
+    background-color: #ebf9f8;
+}
+.dynamic-text{
+    text-align: center;
+}
+.client{
+    color: #5b5b5b;
+}
+
+.dynamic-text{
+    padding-top: 60px;
+}
+.usersdata{
+    width: 100%;
+    text-align: center;
+    
+}
+.group-clients{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.data{
+    width: 25%;
+    text-align: center;
+}
+img{
+    width: 60%;
+    border-radius: 200px;
+}
+h2{
+    color: #20b2aa;
+    font-size: 50px;
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* End Dynamic Section */
+
+
+.Contact{
+    width: 25%;
+    margin: 2% auto;
+}
+label{
+    color: #20b2aa;
+    font-family: 'Do Hyeon';
+    font-size: 40px;
+}
+input , textarea {
+    width: 600px;
+    height: 70px;
+    display: block;
+}
+button{
+    width: 250px;
+    height: 50px;
+    background-color: #2ec1b9;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Do Hyeon';
+}
+span{
+    color: red;
+    visibility: hidden;
+}
+.true{
+    border: 50px solid red;
+}
